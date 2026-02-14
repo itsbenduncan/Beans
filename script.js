@@ -32,22 +32,22 @@ const puzzle = {
     ],
     clues: {
         across: {
-            1:  { clue: "Your clue for BEANS", row: 3, col: 5, length: 5 },
-            4:  { clue: "Your clue for UNI", row: 4, col: 3, length: 3 },
-            8:  { clue: "Your clue for ORACLE", row: 8, col: 0, length: 6 },
-            10: { clue: "Your clue for SPOON", row: 9, col: 5, length: 5 },
-            12: { clue: "Your clue for SWIM", row: 11, col: 0, length: 4 },
-            13: { clue: "Your clue for WHOLE", row: 12, col: 4, length: 5 },
+            1:  { clue: "Plural of Japanese word mame", row: 3, col: 5, length: 5 },
+            4:  { clue: "Mesocentrotus franciscanus or Mezcaleria dessert", row: 4, col: 3, length: 3 },
+            8:  { clue: "First field we saw a baseball game together", row: 8, col: 0, length: 6 },
+            10: { clue: "Said in a big voice", row: 9, col: 5, length: 5 },
+            12: { clue: "Favorite aquatic activity to do together", row: 11, col: 0, length: 4 },
+            13: { clue: "E.g. total, entire, complete; Matches with another answer to make the place we met", row: 12, col: 4, length: 5 },
         },
         down: {
             2:  { clue: "Your clue for CUBS", row: 0, col: 9, length: 4 },
-            3:  { clue: "Your clue for RUTH", row: 3, col: 3, length: 4 },
-            5:  { clue: "Your clue for BIGEYES", row: 3, col: 5, length: 7 },
-            6:  { clue: "Your clue for ASS", row: 3, col: 7, length: 3 },
-            7:  { clue: "Your clue for JAPAN", row: 5, col: 9, length: 5 },
-            9:  { clue: "Your clue for FOODS", row: 7, col: 0, length: 5 },
-            11: { clue: "Your clue for BAY", row: 7, col: 2, length: 3 },
-            14: { clue: "Your clue for SOTOL", row: 8, col: 7, length: 5 },
+            3:  { clue: "Name for the dog when she's being too serious", row: 3, col: 3, length: 4 },
+            5:  { clue: "We don't have but laugh trying to", row: 3, col: 5, length: 7 },
+            6:  { clue: "What we slap that makes our handshake special", row: 3, col: 7, length: 3 },
+            7:  { clue: "Where I'll see you next", row: 5, col: 9, length: 5 },
+            9:  { clue: "Proper name for what we call moods; Matches with another answer to make the place we met", row: 7, col: 0, length: 5 },
+            11: { clue: "Short for our favorite place; Where we'll live one day...", row: 7, col: 2, length: 3 },
+            14: { clue: "New spirit we drink at our favorite restaurant", row: 8, col: 7, length: 5 },
         }
     }
 };
