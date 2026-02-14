@@ -223,3 +223,46 @@ window.visualViewport.addEventListener("resize", () => {
     let clueBar = document.querySelector(".clue-bar");
     clueBar.style.bottom = `${window.innerHeight - window.visualViewport.height}px`;
 });
+
+function playIntro() {
+    const images = [
+        "scans/scan1.png", "scans/scan2.png", "scans/scan3.png",
+        "scans/scan4.png", "scans/scan5.png", "scans/scan6.png",
+        "scans/scan7.png", "scans/scan8.png"
+    ];
+    const noteImg = document.querySelector(".note-img");
+    const note = document.querySelector(".note");
+    let index = 0;
+    let reversing = false;
+
+    noteImg.src = images[0];
+
+    let interval = setInterval(() => {
+        if (!reversing) {
+            index++;
+            if (index === images.length - 1) {
+                reversing = true;
+                noteImg.src = images[index];
+                // Pause on last image for 2 seconds
+                clearInterval(interval);
+                setTimeout(() => {
+                    interval = setInterval(() => {
+                        index--;
+                        noteImg.src = images[index];
+                        if (index === 0) {
+                            clearInterval(interval);
+                            setTimeout(() => {
+                                note.remove();
+                                document.querySelector(".instructions").style.display = "flex";
+                            }, 500);
+                        }
+                    }, 200);
+                }, 2000);
+                return;
+            }
+        }
+        noteImg.src = images[index];
+    }, 500);
+}
+
+playIntro();
