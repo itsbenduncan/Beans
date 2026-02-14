@@ -57,7 +57,7 @@ html, body {
 }
 
 .letterbox {
-    width: calc(100%/11);
+    width: calc(100%/10);
     aspect-ratio: 1 / 1;
     padding: 0px;
     margin: 0px;
@@ -71,7 +71,7 @@ html, body {
 }
 
 .blackbox {
-    width: calc(100%/11);
+    width: calc(100%/10);
     aspect-ratio: 1 / 1;
     padding: 0px;
     margin: 0px;

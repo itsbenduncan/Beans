@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Shadows+Into+Light&display=swap');
+
+body, html {
+    padding: 0px;
+    margin: 0px;
+
+    font-family: "Libre Franklin", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.instant-photo {
+    display: inline-block;
+    width: fit-content;
+    background: white;
+    padding: 12px 12px 0px 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    transform: rotate(-2deg);
+    max-width: 100px;
+    position: absolute;
+
+    font-family: "Shadows Into Light", cursive;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 0.75em;
+    text-align: center;
+}
+
+.instant-photo img {
+    width: 100%;
+    display: block;
+    filter: saturate(0.85) contrast(0.9) brightness(1.05) sepia(0.15);
+}
+
+.overlay {
+    position: fixed;
+    z-index: 10;
+    width: 100vw;
+    height: 95vh;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.overlay2 {
+    position: fixed;
+    z-index: 10;
+    height: 5vh;
+    width: 100vw;
+    bottom: 0px;
+    left: 0px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-size: 0.5em;
+    font-weight: bold;
+}
+
+.countdown {
+    background-color: rgb(0,219,150);
+    box-shadow: 5px 5px rgb(73, 41, 126);
+    padding: 5px;
+
+    font-size: 2em;
+    color: whitesmoke;
+}
+
+.link {
+    background-color: rgb(0,219,150);
+    box-shadow: 5px 5px rgb(73, 41, 126);
+    padding: 5px;
+
+    font-size: 1em;
+    color: whitesmoke;
+}
