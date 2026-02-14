@@ -40,9 +40,9 @@ const puzzle = {
             13: { clue: "E.g. total, entire, complete; Matches with another answer to make the place we met", row: 12, col: 4, length: 5 },
         },
         down: {
-            2:  { clue: "Your clue for CUBS", row: 0, col: 9, length: 4 },
+            2:  { clue: "2016 World Series Champs", row: 0, col: 9, length: 4 },
             3:  { clue: "Name for the dog when she's being too serious", row: 3, col: 3, length: 4 },
-            5:  { clue: "We don't have but laugh trying to", row: 3, col: 5, length: 7 },
+            5:  { clue: "We don't have them but laugh trying to (facial feature)", row: 3, col: 5, length: 7 },
             6:  { clue: "What we slap that makes our handshake special", row: 3, col: 7, length: 3 },
             7:  { clue: "Where I'll see you next", row: 5, col: 9, length: 5 },
             9:  { clue: "Proper name for what we call moods; Matches with another answer to make the place we met", row: 7, col: 0, length: 5 },
